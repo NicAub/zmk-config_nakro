@@ -6,6 +6,10 @@
 
 &right_encoder {status = "okay";};
 
+&led_strip {
+    chain-length = <6>;
+};
+
 / {
     macros {
         open_spotify: Open_Spotify {
