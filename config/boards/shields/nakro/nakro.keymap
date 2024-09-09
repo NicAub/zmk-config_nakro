@@ -68,7 +68,7 @@
 
         3_layer_selection {
             bindings = <
-                                            &trans           &bootloader
+                                            &bt BT_CLR          &bootloader
 &none                   &to 0               &to 1           &to 2
             >;
             sensor-bindings = <
