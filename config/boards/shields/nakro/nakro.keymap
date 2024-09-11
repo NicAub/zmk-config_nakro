@@ -6,6 +6,9 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 &right_encoder {status = "okay";};
+&led_strip {
+    chain-length = <6>;
+};
 
 / {
     macros {
