@@ -46,5 +46,6 @@
             zmk,kscan = &default_kscan;
             zmk,matrix_transform = &default_transform;
             zmk,underglow = &led_strip;
+            zephyr,display = &oled;
         };
 };
