@@ -5,6 +5,7 @@
         zephyr,display = &oled;
         zmk,kscan = &default_kscan;
         zmk,matrix_transform = &default_transform;
+        zmk,underglow = &led_strip;
     };
 
     default_kscan: kscan {
@@ -45,7 +46,7 @@
         triggers-per-rotation = <24>;
     };
     
-    &pro_micro_i2c {
+    pro_micro_i2c {
         status = "okay";
 
         oled: ssd1306@3c {
