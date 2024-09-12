@@ -67,7 +67,7 @@
             display-name="Bluetooth";
             bindings = <
                                             &trans                          &trans
-&hold_tap_layer 3 3     &bt BT_SEL 0        &bt BT_SEL 1                    &bootloader
+&hold_tap_layer 3 3     &bt BT_SEL 0        &bt BT_SEL 1                    &bt BT_CLR
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
@@ -77,8 +77,8 @@
         3_layer_selection {
             display-name="Layers";
             bindings = <
-                                            &bt BT_CLR                      &bootloader
-&none                   &to 0               &to 1                           &to 2
+                                            &EP_ON                          &bootloader
+&hold_tap_layer 3 1     &to 0               &to 1                           &to 2
             >;
             sensor-bindings = <
             &inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC
