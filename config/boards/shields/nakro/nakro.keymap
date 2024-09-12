@@ -56,7 +56,7 @@
             display-name="Teams";
             bindings = <
                                             &trans                          &trans
-&hold_tap_layer 3 3     &kp LC(LS(M))       &kp LC(LS(O))                   &kp LS(LC(K))
+&hold_tap_layer 3 2     &kp LC(LS(M))       &kp LC(LS(O))                   &kp LS(LC(K))
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
@@ -67,7 +67,7 @@
             display-name="Bluetooth";
             bindings = <
                                             &trans                          &trans
-&hold_tap_layer 3 5     &bt BT_SEL 0        &bt BT_SEL 1                    &bootloader
+&hold_tap_layer 3 3     &bt BT_SEL 0        &bt BT_SEL 1                    &bootloader
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
