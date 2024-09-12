@@ -78,7 +78,7 @@
             display-name="Layers";
             bindings = <
                                             &kp EP_ON                       &bootloader
-&hold_tap_layer 3 1     &to 0               &to 1                           &to 2
+&hold_tap_layer 3 0     &to 0               &to 1                           &to 2
             >;
             sensor-bindings = <
             &inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC
