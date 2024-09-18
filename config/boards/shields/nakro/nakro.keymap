@@ -45,7 +45,7 @@
             display-name="Windows";
             bindings = <
                                             &kp C_PLAY_PAUSE                &kp PRINTSCREEN
-&hold_tap_layer 3 1     &open_spotify       &kp C_AL_EMAIL                  &kp C_AL_CALCULATOR
+&hold_tap_layer 4 1     &open_spotify       &kp C_AL_EMAIL                  &kp C_AL_CALCULATOR
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
@@ -56,7 +56,7 @@
             display-name="Teams";
             bindings = <
                                             &trans                          &trans
-&hold_tap_layer 3 2     &kp LC(LS(M))       &kp LC(LS(O))                   &kp LS(LC(K))
+&hold_tap_layer 4 2     &kp LC(LS(M))       &kp LC(LS(O))                   &kp LS(LC(K))
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
@@ -67,18 +67,29 @@
             display-name="Bluetooth";
             bindings = <
                                             &trans                          &trans
-&hold_tap_layer 3 3     &bt BT_SEL 0        &bt BT_SEL 1                    &bt BT_CLR
+&hold_tap_layer 4 3     &bt BT_SEL 0        &bt BT_SEL 1                    &bt BT_CLR
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
             >;
         };
 
-        3_layer_selection {
+        3_layer_led {
+            display-name="LED";
+            bindings = <
+                                            &kp RGB_SAI                     &kp RGB_SAD
+&hold_tap_layer 4 4     &kp RGB_TOG         &kp RGB_BRI                     &kp RGB_BRD
+            >;
+            sensor-bindings = <
+            &inc_dec_kp C_VOL_UP C_VOL_DN
+            >;
+        };
+
+        4_layer_selection {
             display-name="Layers";
             bindings = <
                                             &kp EP_ON                       &bootloader
-&hold_tap_layer 3 0     &to 0               &to 1                           &to 2
+&hold_tap_layer 4 0     &to 0               &to 1                           &to 2
             >;
             sensor-bindings = <
             &inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC
