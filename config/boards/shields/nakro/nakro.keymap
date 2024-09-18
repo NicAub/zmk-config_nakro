@@ -77,8 +77,8 @@
         3_layer_led {
             display-name="LED";
             bindings = <
-                                            &kp RGB_SAI                     &kp RGB_SAD
-&hold_tap_layer 4 4     &kp RGB_TOG         &kp RGB_BRI                     &kp RGB_BRD
+                                            &rgb_ug RGB_SAI                 &rgb_ug RGB_SAD
+&hold_tap_layer 4 4     &rgb_ug RGB_TOG     &rgb_ug RGB_BRI                 &rgb_ug RGB_BRD
             >;
             sensor-bindings = <
             &inc_dec_kp C_VOL_UP C_VOL_DN
