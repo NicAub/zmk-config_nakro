@@ -47,7 +47,7 @@
         triggers-per-rotation = <24>;
     };
 };
-/*
+
 &pinctrl {
 
     i2c0_default: i2c0_default {
@@ -65,6 +65,7 @@
         };
     };
 };
+/*
 &pinctrl {
     spi3_default: spi3_default {
         group1 {

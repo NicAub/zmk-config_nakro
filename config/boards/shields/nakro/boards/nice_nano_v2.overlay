@@ -14,7 +14,7 @@
         };
     };
 };
-
+/*
 &pinctrl {
     i2c0_default: i2c0_default {
         group1 {
@@ -31,7 +31,7 @@
         };
     };
 };
-
+*/
 
 &spi3 {
   compatible = "nordic,nrf-spim";
