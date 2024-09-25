@@ -80,7 +80,7 @@
     };
 };
 */
-/*
+
 
 &pro_micro_i2c {
 
@@ -100,7 +100,7 @@
         prechargep = <0x22>;
         };
 };
-*/
+
 /*
 &spi3 {
   compatible = "nordic,nrf-spim";
